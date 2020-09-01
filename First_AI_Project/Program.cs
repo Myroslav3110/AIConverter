@@ -7,7 +7,9 @@ namespace First_AI_Project
     {
         static void Main()
         {
+            //Kilometers
             //var input1 = 100;
+            //Miles
             //var input2 = 62.1371m;
             while(true)
             {
@@ -69,7 +71,7 @@ namespace First_AI_Project
                                     {
                                         Console.WriteLine($"Conversion from: {result} is: {neuron.ProcessInputData(result)}");
                                         Console.WriteLine("\n\n************************************************\n\n");
-                                        Console.WriteLine("1 - Countinue");
+                                        Console.WriteLine("1 - Continue");
                                         Console.WriteLine("2 - New neuron");
                                         Console.WriteLine("3 - Exit");
                                         var subChoice2 = Console.ReadLine();
@@ -96,7 +98,7 @@ namespace First_AI_Project
                                         Console.WriteLine("\n\n************************************************\n\n");
                                         Console.WriteLine($"Inversion from: {result} is:{neuron.RestoreInputData(result)}");
                                         Console.WriteLine("\n\n************************************************\n\n");
-                                        Console.WriteLine("1 - Countinue");
+                                        Console.WriteLine("1 - Continue");
                                         Console.WriteLine("2 - New neuron");
                                         Console.WriteLine("3 - Exit");
                                         var subChoice2 = Console.ReadLine();
