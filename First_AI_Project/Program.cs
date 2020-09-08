@@ -27,7 +27,7 @@ namespace First_AI_Project
                     {
                         i++;
                         neuron.Train(input1, input2);
-                        if (i % 500000 == 0)
+                        if (i % 1000000 == 0)
                         {
                             Console.WriteLine($"Iteration:{i} \tError:\t{neuron.LastError}");
                         }
@@ -145,7 +145,6 @@ namespace First_AI_Project
                 else
                 {
                     Console.WriteLine("Wrong input");
-
                 }
             }
         }
